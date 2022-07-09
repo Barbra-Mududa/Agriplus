@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 80%    
+} 
+.body {
+    background-color: #FAFAFA;
+    font-family:'Inter', sans-serif;
+	margin: auto;
+    margin-left: 10px;
+	width: 80%;
+	overflow: scroll;
+	overflow-x: hidden;    
+}
+/* Navigation bar starts */
+.nav-section {
+	background-color: #fafafa; 
+	width: 100%;
+    color: #fafafa;
+	
+}
+.navbar-border {
+	background-color: black;
+    color: #fafafa;
+	width: 2000px;
+	border-bottom: 1px solid grey;
+}
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+}
+.tab > h1 {
+	margin-left: 130px;
+    font-family: "Oleo Script", cursive;
+}
+.navbar-items > ul {
+	display: flex;
+	align-items: center;
+}
+.navbar-items> ul > li > a {
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	font-size: 17px;
+	padding: 0px;
+    
+}
+.navbar-items > ul > li {
+	list-style: none;
+}
+.navbar-items > ul > li > a:hover {
+	color: #ED661F;
+	font-weight: 600;
+}
+/* .navbar-itemss ul > li > .visited-link:visited {
+	color: orange;
+	font-weight: 700; */
+
+.btn {
+	padding: 15px;
+	border-radius: 7px;
+	border: none;
+	background-color: #ED661F;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600 !important;
+	cursor: pointer;
+}
+.btn:hover {
+	box-shadow: rgba(136, 165, 191, 0.42) 6px 15px 16px 0px,
+		rgba(255, 255, 255, 0.9) -6px -15px 3px 0px;
+}
+/* Navigation bar ends */
