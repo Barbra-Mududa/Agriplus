@@ -190,6 +190,10 @@ p {
 	margin-left: 0px;
 	padding-left: 5px;
 }
+.pointer {
+	padding: 10px 10px 10px;
+	float: right;
+}
 
 
 /* newest items ends */
