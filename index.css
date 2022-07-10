@@ -233,13 +233,30 @@ p {
 /* first footer  begins */
 .footer1 {
 	text-align: center;
-	padding-top: 10px;
+	padding: 10px 10px 30px;
 	margin-top: 50px;
 	background-color: black;
 	color: white;
+	width: 100%;
+
+	border-bottom: 2px solid grey;
 }
 /* first footer  ends */
 
+/* final footer begins */
+.final {
+	display: flex;
+	background-color: black;
+	color: white;
+}
+.start {
+	margin: 20px;
+	flex-grow: 3;
+}
+.info {
+	flex-grow: o;
+}
+/* final footer ends */
 
 
 
