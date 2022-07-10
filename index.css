@@ -151,36 +151,16 @@ span {
 /* most popular section */
 .most_popular > h3 {
 	padding: 10px 10px 10px ;
-	margin-left: 150px;
+	margin-left: 100px;
 }
 .items {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
 	margin-left: 150px;
-}
-	/* width: 100%; 
-	overflow: hidden;
-	 
-}
-img {
-	display: flex;
-	flex-direction: row;
-	width: 100px;
-	height: 300px;
 	object-fit: scale-down;
+	/* height: 100px; */
+}
+.
 
-
-} */
-/* .carrots {
-	width: 15%;
-}
-.cereals {
-	width: 20%;
-}
-.fish {
-	width: 20%;
-}
-.kales {
-	width: 20%;
-} */
+	
