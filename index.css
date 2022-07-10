@@ -149,12 +149,16 @@ span {
 /* categories end */
 .most_popular {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 100%;
+	object-fit: contain;
 }
 .most_popular > h3 {
 	padding: 10px 10px 10px ;
 }
 .carrots {
-	width: 25%;
+	width: 20%;
+}
+.cereals {
+	width: 20%;
 }
