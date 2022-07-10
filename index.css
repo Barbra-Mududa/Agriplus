@@ -202,11 +202,14 @@ p {
 }
 /* newest items ends */
 
-/* empty-box */
+/*box */
 .box {
 	background-color: grey;
 	width: 100%;
-	margin:20px 10px; 
+	height: 35px;
+	margin:70px 20px; 
+	border-top: 2px solid grey;
+	box-shadow: 0px 3px 3px grey inset;
 	/* float: left; */
 } 
 /* empty-box ends */
@@ -233,12 +236,11 @@ p {
 /* first footer  begins */
 .footer1 {
 	text-align: center;
-	padding: 10px 10px 30px;
-	margin-top: 50px;
+	/* padding: 10px 10px 30px; */
+	margin-top: 25px;
 	background-color: black;
 	color: white;
 	width: 100%;
-
 	border-bottom: 2px solid grey;
 }
 /* first footer  ends */
@@ -248,15 +250,36 @@ p {
 	display: flex;
 	background-color: black;
 	color: white;
+	/* padding-bottom: 30px; */
 }
 .start {
-	margin: 20px;
-	flex-grow: 3;
+	/* margin-left: 80px; */
+	flex-grow: 2;
+
 }
 .info {
 	flex-grow: o;
+	display: flex;
+	font-weight:thin;
+	justify-content: space-between;
+	/* margin-right: 100px; */
 }
+.company {
+	padding-right: 30px;
+}
+.products {
+	padding-right: 20px;
+}
+.others {
+	padding-right: 10px;
+} 
 /* final footer ends */
+/* ending */
+.ending {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
 
 
 
