@@ -147,4 +147,14 @@ span {
 	font-family: 'Inter', sans-serif;
 }	
 /* categories end */
-
+.most_popular {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.most_popular > h3 {
+	padding: 10px 10px 10px ;
+}
+.carrots {
+	width: 25%;
+}
