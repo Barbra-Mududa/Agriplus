@@ -170,7 +170,7 @@ p {
 }
 /* most popular ends */
 
-/* newest items begind */
+/* newest items begins */
 .newest {
 	padding: 10px 10px 10px;
 	margin-left: 100px;
@@ -191,12 +191,23 @@ p {
 	padding-left: 5px;
 }
 .pointer {
-	padding: 10px 10px 10px;
+	padding: 10px 10px 30px;
 	float: right;
 }
-
-
 /* newest items ends */
+
+/* empty-box */
+.box {
+	background-color: grey;
+	width: 100%;
+	margin:20px 10px;
+	/* float: left; */
+}
+/* empty-box ends */
+
+/* review cards starts */
+
+/* review cards ends */
 
 
 	
