@@ -147,18 +147,33 @@ span {
 	font-family: 'Inter', sans-serif;
 }	
 /* categories end */
-.most_popular {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	object-fit: contain;
-}
+
+/* most popular section */
 .most_popular > h3 {
 	padding: 10px 10px 10px ;
 }
-.carrots {
-	width: 20%;
+.most_popular > img {
+	display: inline-block;
+	justify-content: space-around;
+	width: 100%; 
+	overflow: hidden; 
+}
+img {
+	width: 200px;
+	height: 300px;
+	object-fit: scale-down;
+
+
+}
+/* .carrots {
+	width: 15%;
 }
 .cereals {
 	width: 20%;
 }
+.fish {
+	width: 20%;
+}
+.kales {
+	width: 20%;
+} */
