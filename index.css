@@ -179,7 +179,7 @@ p {
 	margin-left: 100px;
 }
 span {
-	border: 2px solid #ED661F;
+	border-bottom: 2px solid #ED661F;
 }
 .new_items {
 	display: flex;
@@ -225,9 +225,13 @@ p {
 .cards > img {
 	object-fit: scale-down;
 }
+.pointer {
+	float: right;
+}
 /* review cards ends */
 
 /* first footer  begins */
+
 /* first footer  ends */
 
 
