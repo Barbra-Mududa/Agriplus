@@ -153,18 +153,24 @@ span {
 	padding: 10px 10px 10px ;
 }
 .most_popular > img {
-	display: inline-block;
+	display: flex;
 	justify-content: space-around;
-	width: 100%; 
-	overflow: hidden; 
+	flex-direction: row;
+	margin-left: 50px;
+}
+	/* width: 100%; 
+	overflow: hidden;
+	 
 }
 img {
-	width: 200px;
+	display: flex;
+	flex-direction: row;
+	width: 100px;
 	height: 300px;
 	object-fit: scale-down;
 
 
-}
+} */
 /* .carrots {
 	width: 15%;
 }
