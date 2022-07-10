@@ -136,8 +136,9 @@ body {
 span {
 	border-bottom: 2px solid #ED661F;
 }
-.image {
+.img {
 	max-width: 70%;	
+	
 }
 /* why section end */
 
@@ -200,12 +201,25 @@ p {
 .box {
 	background-color: grey;
 	width: 100%;
-	margin:20px 10px;
+	margin:20px 10px; 
 	/* float: left; */
-}
+} 
 /* empty-box ends */
 
 /* review cards starts */
+.reviews {
+	padding: 10px 10px 10px;
+	margin-top: 25px;
+}
+.cards {
+	display:flex;
+	margin-left: 40px;
+	justify-content: space-around;
+	padding: 10px 10px 10px;
+}
+.cards > img {
+	object-fit: scale-down;
+}
 
 /* review cards ends */
 
