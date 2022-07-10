@@ -161,6 +161,28 @@ span {
 	object-fit: scale-down;
 	/* height: 100px; */
 }
-.
+/* most popular ends */
+
+/* newest items begind */
+.newest {
+	padding: 10px 10px 10px;
+	margin-left: 100px;
+}
+.new_items {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 150px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+img {
+	padding:10px 10px 10px;
+}
+p {
+	padding-left:10px;
+}
+
+/* newest items ends */
 
 	
