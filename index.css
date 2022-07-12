@@ -153,80 +153,78 @@ img {
   /* newest items ends */
   
   /*box */
-  .box {
+.box {
 	background-color: grey;
 	width: 100%;
 	height: 35px;
-	margin: 70px 20px;
+	margin: 70px 10px;
 	border-top: 2px solid grey;
-	box-shadow: 0px 3px 3px grey inset;
-	/* float: left; */
-  }
-  /* empty-box ends */
+	box-shadow: 0px 3px 3px grey inset;	
+}
+  /* box ends */
   
   /* review cards starts */
-  .reviews {
+.reviews {
 	padding: 10px 10px 10px;
 	margin-top: 30px;
-  }
-  .cards {
+}
+.reviews > h3 {
+	margin-left: 200px;
+	margin-bottom: 40px;
+}
+.cards {
 	display: flex;
 	margin-left: 40px;
 	justify-content: space-around;
 	padding: 10px 10px 10px;
-  }
-  .cards > img {
+}
+.cards > img {
 	object-fit: scale-down;
-  }
-  .pointer {
+}
+.pointer {
 	float: right;
-  }
+}
   /* review cards ends */
   
   /* first footer  begins */
-  .footer1 {
+.footer1 {
 	text-align: center;
-	/* padding: 10px 10px 30px; */
 	margin-top: 25px;
 	background-color: black;
 	color: white;
 	width: 100%;
+	padding: 80px;
 	border-bottom: 2px solid grey;
+	font-size: larger;
   }
   /* first footer  ends */
   
   /* final footer begins */
-  .final {
+.final {
 	display: flex;
 	background-color: black;
 	color: white;
-	/* padding-bottom: 30px; */
-  }
-  .start {
-	/* margin-left: 80px; */
-	flex-grow: 2;
-  }
-  .info {
-	flex-grow: o;
+	padding: 50px;
+}
+.start {
+	font-size: larger;
+	width: 40%;
+	float: left;
+	margin-left: 200px;
+}
+ .info {
 	display: flex;
 	font-weight: thin;
 	justify-content: space-between;
-	/* margin-right: 100px; */
-  }
-  .company {
-	padding-right: 30px;
-  }
-  .products {
-	padding-right: 20px;
-  }
-  .others {
-	padding-right: 10px;
-  }
+	margin-right: 100px;
+	width: 60%;
+	float: right;
+ }
   /* final footer ends */
   /* ending */
-  .ending {
+.ending {
 	text-align: center;
 	background-color: black;
 	color: white;
-  }
+}
   
