@@ -212,9 +212,12 @@ img {
 	padding: 10px 10px 10px;
 	margin-top: 30px;
 }
-.reviews > h3 {
+.reviews > h4 {
 	margin-left: 200px;
 	margin-bottom: 40px;
+}
+.reviews > h4 > p {
+	font-size: 5px;
 }
 .cards {
 	display: flex;
@@ -233,6 +236,7 @@ img {
 .cards > img {
 	object-fit: scale-down;
 }
+
 .pointer {
 	float: right;
 	margin-bottom: 80px;
@@ -250,7 +254,11 @@ img {
 	border-bottom: 2px solid grey;
 	font-size: larger;
 }
-  /* first footer  ends */
+/* input [type=submit] {
+	background-color: #ed661f;
+	box-sizing: border-box;
+}
+  first footer  ends */
   
   /* final footer begins */
 .final {
@@ -258,6 +266,7 @@ img {
 	background-color: black;
 	color: white;
 	padding: 80px;
+	width: 100%;
 }
 .start {
 	font-size: larger;
@@ -280,5 +289,7 @@ img {
 	background-color: black;
 	color: white;
 	padding-bottom: 10px;
+	width: 100%;
+	padding-right: 10px;
 }
   
