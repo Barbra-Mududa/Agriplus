@@ -6,7 +6,7 @@
   
   /* Navigation bar starts */
   .nav-prim-bar{
-	position: fixed; 
+	/* position: fixed;  */
 	background-color:#0d0202;
 	width:100%;
 	
@@ -43,7 +43,7 @@
   
 #getstarted-btn{
 	border:none;
-	padding:15px;
+	padding:10px;
 	background-color: orangered;
 	cursor:pointer;
 	color: white;
